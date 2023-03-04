@@ -13,8 +13,8 @@ file_name = str(current_time).replace(' ', '-')
 
 file = open(f'{file_name}.txt', 'w+')
 
-lines_to_be_generated = 10
-chars_per_line = 10
+lines_to_be_generated = 20
+chars_per_line = 13
 
 for i in range(lines_to_be_generated):
     for j in  range(chars_per_line):
